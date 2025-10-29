@@ -1,0 +1,23 @@
+{
+  "name": "earthquake-visualizer",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Interactive Earthquake Visualizer using USGS Earthquake API and Leaflet",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "leaflet": "^1.9.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-leaflet": "^4.2.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^5.0.4",
+    "vite": "^7.1.7",
+    "gh-pages": "^6.3.0"
+  }
+}

@@ -1,0 +1,23 @@
+.app-container {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  background: #eef6ff;
+  min-height: 100vh;
+  padding: 1rem;
+}
+
+h1 {
+  color: #1e3a8a;
+  margin-bottom: 0.3rem;
+}
+
+p {
+  color: #374151;
+  margin-bottom: 1rem;
+}
+
+.map-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
